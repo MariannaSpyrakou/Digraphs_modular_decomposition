@@ -41,9 +41,9 @@ if __name__ == "__main__":
 	find_sym_struct(G,Gs,Gd,H)
 	TGs=modular_decomposition(Gs)
 	TGd=modular_decomposition(Gd)
-	TH=modular_decomposition(H)
+	Th=modular_decomposition(H)
 	print TGs
 	print TGd
-	print TH
+	print Th
 	# modular decomposition of Gs, Gd
 	
