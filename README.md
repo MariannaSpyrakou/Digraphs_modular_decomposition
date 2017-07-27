@@ -10,10 +10,11 @@ Step 1: (function: find_sym_struct())
        H: edge (u,v)=0 if edge (u,v) is a non-edge
           edge (u,v)=1 if edge (u,v) is an edge in both Gs,Gd
           edge (u,v)=2 if edge (u,v) is an edge in Gs but not in Gd
+          (H= Gs V Gd)
 
 Step 2: Compute modular decomposition of Gs,Gd
 
-Step 3: Find modular decomposition of T, T(H)=T(Gs) \/ T(Gd)
+Step 3: Find modular decomposition of T, T(H)=T(Gs) V T(Gd)
 
 Step 4: Order the children of each 0-complete and 1-complete node
 
