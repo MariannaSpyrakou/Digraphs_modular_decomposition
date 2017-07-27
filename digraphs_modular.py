@@ -18,8 +18,8 @@ def find_sym_struct(G,Gs,Gd,H):
 			elif (e[0],e[1],None) not in Gd.edges():
 				H.add_edge(e[0],e[1],label=0)
 			e=(e[1],e[0],None)
-			print e
-    """
+			#print e
+    	"""
 	print "Gs"
 	for e in Gs.edges():
 		print e
@@ -29,7 +29,7 @@ def find_sym_struct(G,Gs,Gd,H):
 	print "H"
 	for e in H.edges():
 		print e
-    """
+    	"""
     
 if __name__ == "__main__":	
 	d={1:[2],2:[1],5:[1]}
