@@ -1,4 +1,5 @@
 from sage.all import Graph, DiGraph
+from modularDecomposition import *
 import itertools
 
 def find_sym_struct(G,Gs,Gd,H):
@@ -38,5 +39,11 @@ if __name__ == "__main__":
 	Gd=Graph()
 	H=Graph()
 	find_sym_struct(G,Gs,Gd,H)
+	TGs=modular_decomposition(Gs)
+	TGd=modular_decomposition(Gd)
+	TH=modular_decomposition(H)
+	print TGs
+	print TGd
+	print TH
 	# modular decomposition of Gs, Gd
 	
