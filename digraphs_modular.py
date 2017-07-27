@@ -34,7 +34,7 @@ def find_sym_struct(G,Gs,Gd,H):
 if __name__ == "__main__":	
 	d={1:[2],2:[1],5:[1]}
 	G=DiGraph(d)
-    Gs=Graph()
+	Gs=Graph()
 	Gd=Graph()
 	H=Graph()
 	find_sym_struct(G,Gs,Gd,H)
