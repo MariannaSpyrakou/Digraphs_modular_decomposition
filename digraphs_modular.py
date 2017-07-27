@@ -5,7 +5,7 @@ def find_sym_struct(G,Gs,Gd,H):
 	rev=G.reverse()
 	vert=G.vertices()
 	comb = list(itertools.combinations(vert,2))
-    for e in comb:
+    	for e in comb:
 		e=(e[0],e[1],None)
 		for i in range(2):
 			if e in G.edges():
