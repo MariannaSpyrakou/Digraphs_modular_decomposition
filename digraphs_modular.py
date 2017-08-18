@@ -1,4 +1,5 @@
 from sage.all import Graph, DiGraph
+from Trees import Tree
 from modularDecomposition import *
 import itertools
 
